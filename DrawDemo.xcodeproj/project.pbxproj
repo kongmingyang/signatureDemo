@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F528509B255519B0005C2CA3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F528509D255519B0005C2CA3 /* Localizable.strings */; };
 		F592B2D42553F7C400A789AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2D32553F7C400A789AD /* AppDelegate.m */; };
 		F592B2D72553F7C400A789AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2D62553F7C400A789AD /* SceneDelegate.m */; };
 		F592B2DA2553F7C400A789AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2D92553F7C400A789AD /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		F592B2E52553F7C600A789AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2E42553F7C600A789AD /* main.m */; };
 		F592B2EF2553F7C600A789AD /* DrawDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2EE2553F7C600A789AD /* DrawDemoTests.m */; };
 		F592B2FA2553F7C600A789AD /* DrawDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B2F92553F7C600A789AD /* DrawDemoUITests.m */; };
+		F592B30C2553F7EF00A789AD /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F592B30B2553F7EF00A789AD /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F528508525551968005C2CA3 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
+		F528508925551968005C2CA3 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F528508D25551971005C2CA3 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		F528508E25551971005C2CA3 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F528508F2555197C005C2CA3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F52850902555197C005C2CA3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F528509125551988005C2CA3 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		F528509225551988005C2CA3 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F528509C255519B0005C2CA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F52850A1255519B4005C2CA3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F52850A2255519B5005C2CA3 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F52850A3255519B7005C2CA3 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F52850A4255519B7005C2CA3 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F592B2CF2553F7C400A789AD /* DrawDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F592B2D22553F7C400A789AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F592B2D32553F7C400A789AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +69,8 @@
 		F592B2F52553F7C600A789AD /* DrawDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F592B2F92553F7C600A789AD /* DrawDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDemoUITests.m; sourceTree = "<group>"; };
 		F592B2FB2553F7C600A789AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F592B30A2553F7EF00A789AD /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		F592B30B2553F7EF00A789AD /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +127,9 @@
 				F592B2D62553F7C400A789AD /* SceneDelegate.m */,
 				F592B2D82553F7C400A789AD /* ViewController.h */,
 				F592B2D92553F7C400A789AD /* ViewController.m */,
+				F592B30A2553F7EF00A789AD /* DrawView.h */,
+				F592B30B2553F7EF00A789AD /* DrawView.m */,
+				F528509D255519B0005C2CA3 /* Localizable.strings */,
 				F592B2DB2553F7C400A789AD /* Main.storyboard */,
 				F592B2DE2553F7C600A789AD /* Assets.xcassets */,
 				F592B2E02553F7C600A789AD /* LaunchScreen.storyboard */,
@@ -221,6 +241,10 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-AU",
+				"en-IN",
+				"zh-Hans",
+				"en-GB",
 			);
 			mainGroup = F592B2C62553F7C300A789AD;
 			productRefGroup = F592B2D02553F7C400A789AD /* Products */;
@@ -240,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F592B2E22553F7C600A789AD /* LaunchScreen.storyboard in Resources */,
+				F528509B255519B0005C2CA3 /* Localizable.strings in Resources */,
 				F592B2DF2553F7C600A789AD /* Assets.xcassets in Resources */,
 				F592B2DD2553F7C400A789AD /* Main.storyboard in Resources */,
 			);
@@ -270,6 +295,7 @@
 				F592B2D42553F7C400A789AD /* AppDelegate.m in Sources */,
 				F592B2E52553F7C600A789AD /* main.m in Sources */,
 				F592B2D72553F7C400A789AD /* SceneDelegate.m in Sources */,
+				F592B30C2553F7EF00A789AD /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,10 +331,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F528509D255519B0005C2CA3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F528509C255519B0005C2CA3 /* en */,
+				F52850A1255519B4005C2CA3 /* zh-Hans */,
+				F52850A2255519B5005C2CA3 /* en-AU */,
+				F52850A3255519B7005C2CA3 /* en-IN */,
+				F52850A4255519B7005C2CA3 /* en-GB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F592B2DB2553F7C400A789AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F592B2DC2553F7C400A789AD /* Base */,
+				F528508525551968005C2CA3 /* en-AU */,
+				F528508D25551971005C2CA3 /* en-IN */,
+				F528508F2555197C005C2CA3 /* zh-Hans */,
+				F528509125551988005C2CA3 /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +359,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				F592B2E12553F7C600A789AD /* Base */,
+				F528508925551968005C2CA3 /* en-AU */,
+				F528508E25551971005C2CA3 /* en-IN */,
+				F52850902555197C005C2CA3 /* zh-Hans */,
+				F528509225551988005C2CA3 /* en-GB */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -387,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
